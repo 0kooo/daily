@@ -20,6 +20,11 @@ class Solution {
                 temp=i;
             }
         }
+        if(temp < 0){
+            count += (len + 1) / 2;
+        }else{
+            count += (len - temp - 1) / 2;
+        }
         return count >= n;
     }
 }
