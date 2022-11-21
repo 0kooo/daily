@@ -1,6 +1,5 @@
 package Text2;
 
-
 class Solution {
     public boolean lemonadeChange(int[] bills) {
         int five = 0;
